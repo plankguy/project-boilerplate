@@ -6,21 +6,21 @@ node_modules
 .cache
 
 # Fonts
-static/fonts
+#static/build/fonts
 
 # Images
-static/images/*
-!static/images/icons/*
+#static/build/images/*
+#!static/build/images/icons/*
 
 # scss / css
-static/css
-static/scss
-!static/scss/templates
+#static/css
+#static/scss
+#!static/scss/templates
 
 # Sourcemaps
-static/sourcemaps/*
-!static/sourcemaps
-static/sourcemaps/css/*
-!static/sourcemaps/css
-static/sourcemaps/js/*
-!static/sourcemaps/js
+#static/sourcemaps/*
+#!static/sourcemaps
+#static/sourcemaps/css/*
+#!static/sourcemaps/css
+#static/sourcemaps/js/*
+#!static/sourcemaps/js
